@@ -79,7 +79,7 @@ ul li.active a {
 
 .button {
     position: absolute;
-    top: 63%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -95,9 +95,42 @@ ul li.active a {
     transition: 0.2s ease-in-out;
 }
 
+
 .button a:hover {
     border: 1px solid #0984e3;
     border-radius: 25px;
     background-color: #0984e3;
     color: white;
+}
+
+
+.icon-more {
+    margin-top: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-more i {
+    font-size: 30px;
+    color: white;
+}
+
+@media (max-width:800px) {
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: 38%;
+        width: 30%;
+        margin-top: 20px;
+    }
 }

@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: deedev;
+    src: url('../font/Poppins-Regular.otf');
+}
+
+@font-face {
+    font-family: header;
+    src: url('../font/Pacifico-Regular.ttf');
+}
+
+body {
+    font-family: deedev;
+}
+
+
+.nav-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+}
+
+.nav-item {
+    flex: 50%;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #57606f;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0984e3;
+    color: #57606f;
+}
+
+.menu ul li.active a {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0984e3;
+    color: #57606f;
+}
+
+
+.social ul li a:hover {
+    color: white;
+    text-shadow: 0 0 4px #0984e3;
+    font-size: 18px;
+}
+
+.menu,
+.social {
+    padding-top: 10px;
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-image:
+        linear-gradient(#e8e8e8, white, white);
+}
+
+.banner-item {
+    flex: 50%;
+    padding-left: 120px;
+}
+
+.btn-banner {
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(60, 117, 196, 1) 0%, rgba(69, 184, 210, 1) 100%);
+    color: white;
+    padding: 20px 40px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: transform .2s;
+}
+
+.icon-btn-banner {
+    margin-left: 10px;
+}
+
+/* about container */
+
+.about {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.about-item {
+    flex: 50%;
+}
+
+.about-item h1 {
+    padding-left: 250px;
+    padding-bottom: 10px;
+}
+
+.detail-about {
+    color: #57606f;
+    font-size: 15px;
+    padding: 75px 100px;
+}
+
+.detail-about a {
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-right: 20px;
+}
+
+.btn-about1 {
+    background: linear-gradient(90deg, rgba(60, 117, 196, 1) 0%, rgba(69, 184, 210, 1) 100%);
+    color: white;
+}
+
+.btn-about2 {
+    border: 1px solid #51adcf;
+    color: #51adcf;
+}
+
+/* end about */
+
+/* skill container */
+
+.skill {
+    background-color: #FBFBFB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.skill h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+hr.hr-title {
+    height: 2px;
+    width: 5%;
+    background-color: #57606f;
+    margin: auto;
+}
+
+.skill-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item {
+    flex: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px 10px whitesmoke;
+    padding: 30px 17px 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.icon-skill {
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-item h4 {
+    color: #57606f;
+
+}
+
+.skill-item small {
+    font-size: 12px;
+    color: #a4b0be;
+    margin-top: 10px;
+    display: block;
+    line-height: 100%;
+}
+
+/* end skill */
+
+
+/* experience container */
+
+.experience {
+    background-color: #FBFBFB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.experience h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.experience p {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.ex-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ex-item {
+    flex: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+.ex-item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+}
+
+.ex-item p {
+    text-align: center;
+    padding: 0;
+}
+
+/* end experience */
+
+/* portfolio container */
+
+.portfolio {
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.portfolio h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+hr.hr-title-port {
+    height: 2px;
+    width: 5%;
+    background-color: #57606f;
+    margin-left: 30px;
+    /* margin: auto; */
+}
+
+.port-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-item {
+    flex: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+.port-item h4 {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.port-item p {
+    font-size: 15px;
+    color: #57606f;
+    text-align: left;
+}
+
+.port-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #1e90ff;
+    text-align: left;
+}
+
+.port-detail {
+    background-color: white;
+    box-shadow: 0 0 10px 10px whitesmoke;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.port-detail a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #1e90ff;
+    text-align: center;
+}
+
+.port-detail h4 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+/* end portfolio */
+
+
+.contact {
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+
+.contact h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.contact-item {
+    margin-top: 50px;
+}
+
+.contact-item p {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-item {
+    flex: 50%;
+    margin-left: 100px;
+}
+
+.foot-menu ul li a {
+    font-size: 15px;
+    color: white;
+    margin: 0;
+}
