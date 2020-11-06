@@ -479,6 +479,12 @@ footer {
         margin-left: 40px;
     }
 
+    .foot-menu ul li a {
+        font-size: 10px;
+        color: white;
+        margin: 0;
+    }
+
     .menu,
     .social {
         display: none;
